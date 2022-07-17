@@ -2,7 +2,7 @@ export type Sale ={
         
     id: number;
     sallerName: String;
-    date: String;
+    date: Date;
     visited: number;
     deals: number;
     amount: number;
